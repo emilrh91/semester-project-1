@@ -1,0 +1,72 @@
+body { 
+    font-family: 'Exo', sans-serif; }
+
+    header {
+        text-decoration: none;
+    }
+    
+    .explore-together {
+        font-weight: 200;
+    }
+
+    .csm,
+    .explore-together {
+    font-size: 32px;
+    }
+
+    .menu-line { 
+        width: 25px;
+        height: 2px;
+        background-color: black;
+        margin-bottom: 7px;
+      }
+
+    
+      .menu {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+      }
+    
+      .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 7px;
+        display: none;
+        padding-bottom: 100%;
+        background-color: #C9A289;
+    
+    
+      }
+           
+      .list-item {
+                  
+        display: block;
+        display: flex;
+        justify-content: right;
+        padding-right: 15rem;
+        padding-bottom: 2em;
+        font-size: 40px;
+        font-weight: 600;
+        
+        
+            
+
+      }
+      
+      .active {
+        display: block;
+      }
+      
+      .csm,
+      .nav-list-item {
+        text-decoration: none;
+        color: black;
+      }
+    
+      footer {
+        min-height: 10vh;
+        background-color: black;
+      }
