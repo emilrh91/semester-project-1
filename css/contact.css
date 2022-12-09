@@ -1,0 +1,39 @@
+.map {
+    width: 445px;
+    height: 306px; 
+    margin: 0;
+    
+}
+
+
+.headline {
+    margin-top: 2em;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 1em; 
+    margin-bottom: 2em;
+    
+}
+
+.headline-contact {
+    font-size: 26px;
+    font-weight: 500;
+    
+           
+    }
+
+.grid-container {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    grid-gap: 2em;
+
+}
+
+@media (max-width: 550px) {
+    
+    .map {
+    width: 300px;
+    height: 206px;
+    }
+}

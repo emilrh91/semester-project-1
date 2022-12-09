@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Community Science Museum</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore Together" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/involved.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+              <a href=index.html class="csm" >Community Science Museum</a>
+              <div class="explore-together">Explore Togheter</div>        
+                    
+                    <ul class="nav-list" id="navi-list">
+                        <li class="list-item"><a href="index.html" class="nav-list-item">Home</a></li>
+                        <li class="list-item"><a href="explore.html" class="nav-list-item">Explore Our Museum</a></li>
+                        <li class="list-item"><a href="exhibition-spaces.html" class="nav-list-item">Exhibition Spaces</a></li>
+                        <li class="list-item"><a href="get-involved.html" class="nav-list-item">Get Involved</a> </li>
+                        <li class="list-item"><a href="visit.html" class="nav-list-item">Visit us</a> </li>
+                        <li class="list-item"><a href="contact.html" class="nav-list-item">Contact</a> </li>
+                    </ul>        
+                    <div class="menu" id="toggle-button">
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                    </div>   
+        </nav>
+    <main>
+        <h1 class=headline>Get Involved</h1>
+        <div class="grid-container">
+            <div class="support">
+                <h2 class="headline-involved" id="support">Support</h2>
+                <div><img src="/images/support.jpg" class="img-involved"></div>
+                <div class="text"><p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.
+                    You can also support us by donating items of interest to the museum’s collections. If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.
+                    </p></div>
+            </div>
+            <div class="volunteer">
+                <h2 class="headline-involved" id="volunteer">Volunteer</h2>
+                <div><img src="/images/volunteer.jpg" class="img-involved"></div>
+                <div class="text"><p>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come together to discuss ideas for future exhibits and strategies for the museum.
+                    You can help volunteer in a number of different spheres. Please contact us if you’d like to find out more about how you can get involved.
+                    </p></div>
+            </div>  
+            <div class="internship">
+                <h2 class="headline-involved" id="intership">Internship</h2>
+                <div><img src="/images/support.jpg" class="img-involved"></div>
+                <div class="text"><p>Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.
+                    You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.
+                    </p></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-left">
+        <a class=footer-link href="contact.html">Contact</a>
+        <a class=footer-link href="get-involved.html">Get Involved</a>
+        <div class="adress-footer">Karl Johans Gate 1, 0154 Oslo</div>
+        <div class="copyright">Copyright 2022 &copy;</div>
+        </div>
+        <table class="opening-hours">
+            <tr><th>Monday</th><td>Closed</td></tr>
+            <tr><th>Tuesday</th><td>10:00 - 16:00</td></tr>
+            <tr><th>Wednesday</th><td>10:00 - 16:00</td></tr>
+            <tr><th>Thursday</th><td>10:00 - 16:00</td></tr>
+            <tr><th>Friday</th><td>10:00 - 19:00</td></tr>
+            <tr><th>Saturday</th><td>09:00 - 16:00</td></tr>
+            <tr><th>Sunday</th><td>09:00 - 13:00</td></tr>
+        </table>
+    </footer>
+    
+    </body>
+    <script>
+        const toggleButton = document.getElementById('toggle-button');
+        const naviList = document.getElementById('navi-list');
+    
+        toggleButton.addEventListener('click', () => {
+          naviList.classList.toggle('active');
+        })
+      </script>
+    </html>

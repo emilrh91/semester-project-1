@@ -1,72 +1,102 @@
-body { 
-    font-family: 'Exo', sans-serif; }
+body {
+  font-family: "Exo", sans-serif;
+}
 
-    header {
-        text-decoration: none;
-    }
-    
-    .explore-together {
-        font-weight: 200;
-    }
+header {
+  text-decoration: none;
+}
 
-    .csm,
-    .explore-together {
-    font-size: 32px;
-    }
+.explore-together {
+  font-weight: 200;
+}
 
-    .menu-line { 
-        width: 25px;
-        height: 2px;
-        background-color: black;
-        margin-bottom: 7px;
-      }
+.csm,
+.explore-together {
+  font-size: 32px;
+}
 
-    
-      .menu {
-        display: block;
-        position: absolute;
-        right: 15px;
-        top: 10px;
-      }
-    
-      .nav-list {
-        list-style-type: none;
-        width: 100%;
-        text-align: center;
-        padding-top: 7px;
-        display: none;
-        padding-bottom: 100%;
-        background-color: #C9A289;
-    
-    
-      }
-           
-      .list-item {
-                  
-        display: block;
-        display: flex;
-        justify-content: right;
-        padding-right: 15rem;
-        padding-bottom: 2em;
-        font-size: 40px;
-        font-weight: 600;
-        
-        
-            
+.menu-line {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 7px;
+}
 
-      }
-      
-      .active {
-        display: block;
-      }
-      
-      .csm,
-      .nav-list-item {
-        text-decoration: none;
-        color: black;
-      }
-    
-      footer {
-        min-height: 10vh;
-        background-color: black;
-      }
+.menu {
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 7px;
+  display: none;
+  padding-bottom: 100%;
+  background-color: #C9A289;
+}
+
+.list-item {
+  display: block;
+  display: flex;
+  justify-content: right;
+  padding-right: 15rem;
+  padding-bottom: 2em;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.active {
+  display: block;
+}
+
+.csm,
+.nav-list-item {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  min-height: 10vh;
+  padding: 2em;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: space-evenly;
+}
+footer .footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opening-hours {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adress-footer {
+  padding-top: 1em;
+}
+
+.copyright {
+  padding-top: 1em;
+  font-size: 12px;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    grid-column: auto;
+  }
+}/*# sourceMappingURL=styles.css.map */

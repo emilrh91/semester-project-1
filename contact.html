@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Community Science Museum</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore Together" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+              <a href=index.html class="csm" >Community Science Museum</a>
+              <div class="explore-together">Explore Togheter</div>        
+                    
+                    <ul class="nav-list" id="navi-list">
+                        <li class="list-item"><a href="index.html" class="nav-list-item">Home</a></li>
+                        <li class="list-item"><a href="explore.html" class="nav-list-item">Explore Our Museum</a></li>
+                        <li class="list-item"><a href="exhibition-spaces.html" class="nav-list-item">Exhibition Spaces</a></li>
+                        <li class="list-item"><a href="get-involved.html" class="nav-list-item">Get Involved</a> </li>
+                        <li class="list-item"><a href="visit.html" class="nav-list-item">Visit us</a> </li>
+                        <li class="list-item"><a href="contact.html" class="nav-list-item">Contact</a> </li>
+                    </ul>        
+                    <div class="menu" id="toggle-button">
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                    </div>   
+        </nav>
+    </header>
+    
+    <main>
+        <h1 class=headline>Contact us</h1>
+
+        <div class="grid-container">
+
+        <div class="tel"><h2 class="headline-contact">Telephone</h2>
+        <p>+47 11 11 11 11</p></div>
+        
+        <div class="mail"><h2 class="headline-contact">E-mail</h2>
+        <p>support@csm.com</p></div>
+
+        <div class="adress"><h2 class="headline-contact">Karl Johans Gate 1, 0152 Oslo</h2>
+        <img src="/images/kart.png" class="map"></div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-left">
+        <a class=footer-link href="contact.html">Contact</a>
+        <a class=footer-link href="get-involved.html">Get Involved</a>
+        <div class="adress-footer">Karl Johans Gate 1, 0154 Oslo</div>
+        <div class="copyright">Copyright 2022 &copy;</div>
+        </div>
+        <table class="opening-hours">
+            <tr><th>Monday</th><td>Closed</td></tr>
+            <tr><th>Tuesday</th><td>10:00 - 16:00</td></tr>
+            <tr><th>Wednesday</th><td>10:00 - 16:00</td></tr>
+            <tr><th>Thursday</th><td>10:00 - 16:00</td></tr>
+            <tr><th>Friday</th><td>10:00 - 19:00</td></tr>
+            <tr><th>Saturday</th><td>09:00 - 16:00</td></tr>
+            <tr><th>Sunday</th><td>09:00 - 13:00</td></tr>
+        </table>
+    </footer>
+    
+    </body>
+    <script>
+        const toggleButton = document.getElementById('toggle-button');
+        const naviList = document.getElementById('navi-list');
+    
+        toggleButton.addEventListener('click', () => {
+          naviList.classList.toggle('active');
+        })
+      </script>
+    </html>
