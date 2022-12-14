@@ -52,12 +52,13 @@
     color: white;
     font-size: 1rem;
     height: 3rem;
-    width: 10rem;    
+    width: 9rem;    
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     text-decoration: none;
+    
     
 
     @media (min-width: 900px) {
@@ -68,6 +69,11 @@
    
 }
 
+.button:hover,
+.ex-button:hover {
+    background-color: black;
+}
+
 .events {
     background-color: #89C9C9;
     margin-top: 2em;
@@ -76,17 +82,17 @@
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 26px;
     padding-top: 2em;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 20px;
     
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     padding-top: .5em;
     padding-bottom: 2em
 }
@@ -140,6 +146,8 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-decoration: none;
+        color: black;
     }
 
     h3 {
@@ -154,10 +162,14 @@ p {
 }
 }
 
+.grid-item:hover {
+    transform: scale(1.2);
+    
+  }
+
 .grid-container2 {
     background-color: #C98989;
-    padding: 3em;
-    padding-top: 10em;
+    padding: 2em;
     display: grid;
     grid-gap: 6em;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -172,8 +184,8 @@ p {
     }
         h3 {
         font-weight: 400;
-        font-size: 2em;
-        margin-top: 1px;
+        font-size: 20px;
+        margin-top: 5px;
         }
     
 
