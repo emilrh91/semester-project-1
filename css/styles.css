@@ -65,16 +65,12 @@ header {
   .menu {
     display: block;
   }
-  .nav-list-item {
-    
-  }
+ 
   .list-item {
     margin: 1rem;
     border-bottom: 1px solid white;
   }
 }
-
-
 
 .active {
   display: block;
@@ -83,7 +79,7 @@ header {
 footer {
   min-height: 10vh;
   padding: 2em;
-  background-color: black;
+  background-color: #333;
   color: white;
   display: grid;
   grid-gap: 2em;
