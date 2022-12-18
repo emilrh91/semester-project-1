@@ -1,0 +1,125 @@
+body {
+  font-family: "Exo", sans-serif;
+}
+
+header {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #333;
+}
+
+.csm {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.explore-together {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: nowrap;
+}
+
+.list-item {
+  margin-left: 1rem;
+}
+
+.nav-list-item {
+  color: #fff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-line {
+  height: 3px;
+  width: 2rem;
+  background-color: #fff;
+  margin: 5px;
+}
+
+@media (max-width: 700px) {
+  .nav-list {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+ 
+  .list-item {
+    margin: 1rem;
+    border-bottom: 1px solid white;
+  }
+}
+
+.active {
+  display: block;
+}
+
+footer {
+  min-height: 10vh;
+  padding: 2em;
+  background-color: #333;
+  color: white;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: space-evenly;
+}
+footer .footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opening-hours {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adress-footer {
+  padding-top: 1em;
+}
+
+.copyright {
+  padding-top: 1em;
+  font-size: 12px;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    grid-column: auto;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 42px;
+  }
+}/*# sourceMappingURL=styles.css.map */

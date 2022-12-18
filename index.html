@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Community Science Museum</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Home" content="Explore Together" />
+    <meta name="description" content="Discover the wonders of science at the Community Science Museum. Explore our exhibitions, get involved, and visit us today!">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+              <a href=index.html class="csm" >Community Science Museum</a>
+              <h3 class="explore-together">Explore Togheter</h3>        
+                    
+                    <ul class="nav-list" id="navi-list">
+                        <li class="list-item"><a href="index.html" class="nav-list-item">Home</a></li>
+                        <li class="list-item"><a href="explore.html" class="nav-list-item">Explore Our Museum</a></li>
+                        <li class="list-item"><a href="exhibition-spaces.html" class="nav-list-item">Exhibition Spaces</a></li>
+                        <li class="list-item"><a href="get-involved.html" class="nav-list-item">Get Involved</a> </li>
+                        <li class="list-item"><a href="visit.html" class="nav-list-item">Visit us</a> </li>
+                        <li class="list-item"><a href="contact.html" class="nav-list-item">Contact</a> </li>
+                    </ul>        
+                    <div class="menu" id="toggle-button">
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                    </div>   
+        </nav>
+    </header>
+    
+    <main>
+        <div class="background">
+            <div class="container">
+                <a class="button" id="item1" href=visit.html>Visit Community Science Museum</a>
+                <a class="button" id="item2" href="explore.html">Explore Our Museum</a>
+            </div>
+        </div>
+        
+        <div class="events">
+            <h1>Upcoming events</h1><br>
+            <h2>Visiting Professor of Aeronautics<br>
+                Dec 29th 2:00 pm </h2>
+            <p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
+            <h2>Night in the museum<br>
+                Jan 6th 19:00 pm</h2>
+            <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
+            <h2>Energetica Exhibition on Loan<br>
+                Jan 14th 19:00 pm</h2>
+            <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.</p>
+
+        </div>
+
+        <a class="ex-button" href="exhibition-spaces.html">Exhibition Spaces</a>
+        <div class="grid-container">
+        <a href="exhibition-spaces.html#cosmos" class="grid-item"><img src="/images/cosmos.jpg"  class="thumb" alt="image of 3 individuals looking at cosmos in the night">
+        <h3>Cosmology</h3></a>
+        <a href="exhibition-spaces.html#evolution" class="grid-item"><img src="/images/landingpage.jpg"  class="thumb" alt="image of an big dinosaur fossile hanging down the roof in a big hallway, with people walking underneath it">
+        <h3>Evolution</h3></a>
+        <a href="exhibition-spaces.html#biology" class="grid-item"><img src="/images/biology.jpg"  class="thumb" alt="image of a microscope">
+        <h3>Biology and medicine</h3></a>
+        <a href="exhibition-spaces.html#robotics" class="grid-item"><img src="/images/robotsai.jpg"  class="thumb" alt="image of a robot desgined as a human. face and neck is human-mask, rest of body is electronoic parts">
+        <h3>Robotics and AI</h3></a>
+        <a href="exhibition-spaces.html#ecology" class="grid-item"><img src="/images/ecology.jpg"  class="thumb" alt="image of outside of a block of flats with covered with a lot of green plants. the flat has sevral floors">
+        <h3>Ecology</h3></a>
+        </div>
+
+        <div class="grid-container2">
+
+        <div class="grid-item2"><img src="/images/cafe.jpg"  class="thumb2" alt="image of a café with a variety of chairs and a bardesk">
+        <h3>Our café always open in opening hours</h3></div>
+        <div class="grid-item2"><img src="/images/openshop.jpg"  class="thumb2" alt="image of a sign saying open shop">
+        <h3>Our café always open in opening hours</h3></div>
+    </div>
+
+    
+
+        
+    </main>
+
+<footer>
+    <div class="footer-left">
+    <a class=footer-link href="contact.html">Contact</a>
+    <a class=footer-link href="get-involved.html">Get Involved</a>
+    <div class="adress-footer">Karl Johans Gate 1, 0154 Oslo</div>
+    <div class="copyright">Copyright 2022 &copy;</div>
+    </div>
+    <table class="opening-hours">
+        <tr><th>Monday</th><td>Closed</td></tr>
+        <tr><th>Tuesday</th><td>10:00 - 16:00</td></tr>
+        <tr><th>Wednesday</th><td>10:00 - 16:00</td></tr>
+        <tr><th>Thursday</th><td>10:00 - 16:00</td></tr>
+        <tr><th>Friday</th><td>10:00 - 19:00</td></tr>
+        <tr><th>Saturday</th><td>09:00 - 16:00</td></tr>
+        <tr><th>Sunday</th><td>09:00 - 13:00</td></tr>
+    </table>
+</footer>
+
+</body>
+<script>
+    const toggleButton = document.getElementById('toggle-button');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+      naviList.classList.toggle('active');
+    })
+  </script>
+</html>
