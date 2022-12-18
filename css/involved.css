@@ -31,4 +31,6 @@
 .volunteer,
 .internship {
   box-shadow: 5px 5px 5px 5px #ccc;
+  padding-left: 1em;
+  padding-right: 1em;
 }/*# sourceMappingURL=involved.css.map */
