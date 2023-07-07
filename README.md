@@ -20,7 +20,7 @@ This project is an interactive website developed for the Community Science Museu
 To get this project up and running on your local machine, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/emilrh91/semester-project-1`
-2. Navigate to the project folder: `semester-project-1`
+2. Navigate to the project folder: `cd semester-project-1`
 3. Open the project in your preferred code editor.
 4. Open the index.html file in a web browser. You may use extensions like Live Server in Visual Studio Code for a live preview of the website.
 
