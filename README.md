@@ -27,7 +27,7 @@ To get this project up and running on your local machine, follow these steps:
 You should now be able to see the project running in your browser.
 
 ## Contact Me
-Feel free to reach out to me on [LinkedIn](www.linkedin.com/in/emil-halvorsen-2380b3103/) for any inquiries or opportunities.
+Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/emil-halvorsen-2380b3103/) for any inquiries or opportunities.
 
 ## Live Site
 For a live version of the site, please visit: [Commmunity Science Museum](https://communitysciencemuseum-project.netlify.app/).
