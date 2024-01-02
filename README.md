@@ -6,6 +6,9 @@ This project is an interactive website developed for the Community Science Museu
 
 ![App Screenshot](./images/communitysciencemuseum.jpg)
 
+## Live Site
+For a live version of the site, please visit: [Commmunity Science Museum](https://communitysciencemuseum-project.netlify.app/).
+
 ## Pages
 
 - Landing page 
@@ -28,6 +31,3 @@ You should now be able to see the project running in your browser.
 
 ## Contact Me
 Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/emil-halvorsen-2380b3103/) for any inquiries or opportunities.
-
-## Live Site
-For a live version of the site, please visit: [Commmunity Science Museum](https://communitysciencemuseum-project.netlify.app/).
