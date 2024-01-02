@@ -9,6 +9,12 @@ This project is an interactive website developed for the Community Science Museu
 ## Live Site
 For a live version of the site, please visit: [Commmunity Science Museum](https://communitysciencemuseum-project.netlify.app/).
 
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
 ## Pages
 
 - Landing page 
